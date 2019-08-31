@@ -5,13 +5,13 @@
 <li>Import file into component.ts</li>
 <li>Use into FormGroup <br>
 <code>
-  form = new FormGroup({
+  ```form = new FormGroup({
     email: new FormControl('', [
       Validators.required,
       Validators.email
     ]),
     password: new FormControl('', [Validators.required, PasswordStrengthValidator]),
-  });
+  });```
 
   </code></li>
 </ul>
