@@ -11,6 +11,7 @@
       Validators.email
     ]),
     password: new FormControl('', [Validators.required, PasswordStrengthValidator]),
-  });```
+  });
+  ```
 </li>
 </ul>
